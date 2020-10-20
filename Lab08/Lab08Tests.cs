@@ -11,7 +11,7 @@ namespace Lab08
         [TestCase(1, .999999, ExpectedResult = true)]
         [TestCase(12, 13, ExpectedResult = false)]
         [TestCase(1, 10, ExpectedResult = false)]
-        public bool GivenTwoDoubles_ReturnTrueIfClose(double num1, double num2) => Program.isClose(num1, num2);
+        public bool GivenTwoDoubles_ReturnTrueIfClose(double num1, double num2) => Program.IsClose(num1, num2);
 
         [TestCase(1, ExpectedResult = 2.54)]
         [TestCase(6, ExpectedResult = 15.24)]
