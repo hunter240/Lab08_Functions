@@ -9,7 +9,7 @@ namespace Lab08
             //This will be your driving function that puts everything together
         }
 
-        //make a function called IsCLose that takes in two doubles and returns a bool
+        //make a function called IsClose that takes in two doubles and returns a bool
         //make a function called InchesToCentimeters that takes a double and returns a double
         //make a function called YardsToMeters that takes in a double and returns a double
         //make a funciton called MilesToKilometers that takes in a double and returns a double
